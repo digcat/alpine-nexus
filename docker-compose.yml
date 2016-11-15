@@ -1,0 +1,8 @@
+master:
+  build: .
+  environment:
+    JAVA_OPTS: ""
+  ports:
+    - "8081:8081"
+  volumes:
+    - /var/nexus_home
